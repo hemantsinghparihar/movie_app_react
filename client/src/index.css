@@ -1,0 +1,84 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* secondry color - #6556CD */
+/* primery- #1F1E24 */
+
+::-webkit-scrollbar{
+  width: 7px;
+   height: 7px; 
+   
+}
+
+::-webkit-scrollbar-thumb{
+  background-color: rgba(40, 40, 40, 0.841);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover{
+  background-color: #6556CD;
+  border-radius: 12px;
+}
+
+
+
+.select {
+  position: relative;
+  width: 100%;
+  max-width: 220px; /* Set a maximum width */
+  /* margin: 10px 0; */
+  font-family: 'Arial', sans-serif;
+}
+
+.select select {
+  width: 100%;
+  padding: 12px 20px;
+  font-size: 16px;
+  color: rgb(158, 158, 158);
+  background-color: #121212; /* White background for dropdown */
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  outline: none;
+  cursor: pointer;
+  transition: border-color 0.5s, box-shadow 0.3s; /* Smooth transitions */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.select select:hover {
+  border-color: #4a90e2; /* Blue border on hover */
+}
+
+.select select:focus {
+  border-color: #4a90e2;
+  box-shadow: 0 0 10px rgba(74, 144, 226, 0.4); /* Blue shadow on focus */
+}
+
+.select::after {
+  content: '\25BC'; /* Unicode arrow */
+  position: absolute;
+  right: 15px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 16px;
+  color: #333;
+  pointer-events: none; /* Prevent arrow interaction */
+}
+
+.select select:disabled {
+  background-color: #f0f0f0;
+  color: #999;
+  cursor: not-allowed;
+}
+
+.select option {
+  padding: 20px;
+}
+
+.select select option:hover {
+  background-color: #f2f2f2; /* Lighter background on option hover */
+}
