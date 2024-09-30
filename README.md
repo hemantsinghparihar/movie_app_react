@@ -23,7 +23,7 @@ Check out the live demo of the project here: [Live Demo Link](#)
 
 ## 🎥 Screenshots
 
-![Movie Explorer Screenshot 1](#)
+
 ![Movie Explorer Screenshot 2](#)
 
 ## ⚙️ Getting Started
