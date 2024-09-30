@@ -1,20 +1,20 @@
-# 🎬 Movie Explorer
+# 🎬 movie_react_app
 
-Movie Explorer is a React application that allows users to explore and search for movies using data fetched from [The Movie Database (TMDb) API](https://developer.themoviedb.org/reference/intro/getting-started). This project is part of my personal portfolio and serves as an example of my proficiency in frontend development, API integration, and state management.
+movie_react_app is a React application that allows users to explore and search for movies using data fetched from [The Movie Database (TMDb) API](https://developer.themoviedb.org/reference/intro/getting-started). This project is part of my personal portfolio and serves as an example of my proficiency in frontend development, API integration, and state management.
 
 ## 🚀 Features
 
 - Search for movies by title.
 - Display detailed information about individual movies.
-- Paginated listing of popular and trending movies.
-- Responsive design, optimized for mobile and desktop devices.
+- Listing of popular and trending movies.
+
 
 ## 🛠️ Built With
 
 - **React** - A JavaScript library for building user interfaces.
 - **Redux Toolkit** - For state management.
 - **Axios** - For making API requests.
-- **CSS3** - For styling the components.
+- **Tailwind Css** - For styling the components.
 - **TMDb API** - For fetching movie data (posters, descriptions, etc.).
 
 ## 🔗 Live Demo
@@ -60,21 +60,16 @@ yarn install
 
    Go to [TMDb API](https://developer.themoviedb.org/reference/intro/getting-started) and create a new API key. Once you have your API key, create a `.env` file in the root directory of your project.
 
-4. **Set up environment variables**:
-
-   Create a `.env` file in the root of your project and add the following environment variable:
-
-   ```bash
-   REACT_APP_TMDB_API_KEY=your_api_key_here
-   ```
 
 ### Running the Project
 
-After setting up the environment variables, you can run the project locally.
+you can run the project locally.
 
 ```bash
+# go to the root folder
+cd client
 # Start the development server
-npm start
+npm run dev
 ```
 
 This will start the development server at `http://localhost:3000`.
@@ -110,7 +105,7 @@ The output will be in the `build/` folder, ready for deployment.
 
 In the project directory, you can run:
 
-- `npm start`: Runs the app in development mode.
+- `npm run dev`: Runs the app in development mode.
 - `npm run build`: Builds the app for production.
 - `npm test`: Runs test cases (if any).
 - `npm run lint`: Lints your code for consistent formatting.
@@ -125,15 +120,13 @@ This app uses the [TMDb API](https://developer.themoviedb.org/reference/intro/ge
 - Redux Toolkit for state management.
 - Integration with a third-party API using Axios.
 - Responsive UI with modern CSS techniques.
-- Handling API pagination and search functionality.
+- Handling search functionality and using debouncing.
 
 ## 🧑‍💻 Author
 
-- **Your Name** - [LinkedIn](https://www.linkedin.com/in/yourprofile)
+- **Hemant Singh Parihar** 
 
-## 📄 License
 
-This project is licensed under the MIT License.
-```
 
-You can directly use this markup language content in your `README.md` file for your GitHub repository. Make sure to replace placeholders like `yourusername`, `your_api_key_here`, and `Live Demo Link` with the actual information relevant to your project.
+
+
