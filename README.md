@@ -25,7 +25,11 @@ Check out the live demo of the project here: [Live Demo Link](#)
 
 ![Screenshot 1](https://github.com/user-attachments/assets/6e165270-c6c0-4297-b7de-10d3d68d86d7)
 
-![Movie Explorer Screenshot 2](#)
+![Screenshot 2](https://github.com/user-attachments/assets/c970d1dd-9434-4bc1-860c-afb45c4e36e1)
+
+![Screenshot 3](https://github.com/user-attachments/assets/f69c68ef-8962-48b7-8430-5517b267bbb1)
+
+
 
 ## ⚙️ Getting Started
 
