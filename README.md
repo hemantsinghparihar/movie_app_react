@@ -23,6 +23,7 @@ Check out the live demo of the project here: [Live Demo Link](#)
 
 ## 🎥 Screenshots
 
+![Screenshot 1](https://github.com/user-attachments/assets/6e165270-c6c0-4297-b7de-10d3d68d86d7)
 
 ![Movie Explorer Screenshot 2](#)
 
